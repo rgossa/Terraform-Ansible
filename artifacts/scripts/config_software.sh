@@ -15,7 +15,9 @@ sudo chmod +x  /usr/local/bin/terraform
 
 # https://github.com/adammck/terraform-inventory
 # Install terraform-inventory 
-wget https://github.com/adammck/terraform-inventory/releases/download/v0.8/terraform-inventory_v0.8_linux_amd64.zip
+#wget https://github.com/adammck/terraform-inventory/releases/download/v0.8/terraform-inventory_v0.8_linux_amd64.zip
+# previous curl location does not work - I used snap and it worked 
+sudo snap install terraform
 sudo unzip terraform-inventory_v0.8_linux_amd64.zip -d /usr/local/bin/
 sudo chmod +x  /usr/local/bin/terraform-inventory
 
